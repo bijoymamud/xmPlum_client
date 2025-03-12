@@ -157,6 +157,7 @@
 
 
 import { useState } from "react";
+import { GoCheck } from "react-icons/go";
 
 const Packages = () => {
   const [billingCycle, setBillingCycle] = useState("monthly");
@@ -222,8 +223,9 @@ const Packages = () => {
                 <div className="mb-4">
                   <div className="flex items-center mb-2">
                     <span className="text-white font-medium">Features</span>
-                    <div className="ml-2 w-4 h-4 rounded-full bg-[#2c1f52] flex items-center justify-center">
-                      <span className="text-white text-xs">?</span>
+                    <div className="ml-2 w-5 h-5 rounded-full bg-[#ABA9E6] flex items-center justify-center">
+                      <span className="text-black font-semibold text-base"><GoCheck />
+</span>
                     </div>
                   </div>
 
@@ -260,8 +262,9 @@ const Packages = () => {
                 <div className="mb-4">
                   <div className="flex items-center mb-2">
                     <span className="text-white font-medium">Features</span>
-                    <div className="ml-2 w-4 h-4 rounded-full bg-[#2c1f52] flex items-center justify-center">
-                      <span className="text-white text-xs">?</span>
+                   <div className="ml-2 w-5 h-5 rounded-full bg-[#ABA9E6] flex items-center justify-center">
+                      <span className="text-black font-semibold text-base"><GoCheck />
+</span>
                     </div>
                   </div>
 
@@ -298,8 +301,9 @@ const Packages = () => {
                 <div className="mb-4">
                   <div className="flex items-center mb-2">
                     <span className="text-white font-medium">Features</span>
-                    <div className="ml-2 w-4 h-4 rounded-full bg-[#2c1f52] flex items-center justify-center">
-                      <span className="text-white text-xs">?</span>
+                  <div className="ml-2 w-5 h-5 rounded-full bg-[#ABA9E6] flex items-center justify-center">
+                      <span className="text-black font-semibold text-base"><GoCheck />
+</span>
                     </div>
                   </div>
 
